@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mt Seymour</title>
+    <!-- 瀏覽器iocn> -->
+    <link rel="shortcut icon" href="./img/fac.ico" />
+    <!-- 合併首頁、課程、頁尾 -->
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--  自己寫的CSS  -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!--  Main  -->
+    <div class="section">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="./mp4/Intro Teaser New Web_2.mp4" type="video/mp4">
+        </video>
+
+        <nav>
+            <a href=""><img src="./img/MtSeymour_K_WHT_Logo.webp" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <ul class="menu">
+                    <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                    <li><a href="#">THE MOUNTAIN</a>
+                        <div class="sub-munu-1">
+                            <ul>
+                                <li><a href="weather.html">Today's Conditions</a></li>
+                                <li><a href="#">weather Forecast</a></li>
+                                <li><a href="#">Hours of Operation</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="tickets.html">TICKETS & PASSES</a>
+                        <div class="sub-munu-1">
+                            <ul>
+                                <li><a href="#">Season Passes Reservations</a></li>
+                                <li><a href="#">Tickets</a></li>
+                                <li><a href="#">Gift Cards</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">WINTER</a>
+                        <div class="sub-munu-1">
+                            <ul>
+                                <li><a href="#">Ski & Ride</a></li>
+                                <li><a href="#">Lessons</a></li>
+                                <li><a href="#">Rental Equipment</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">GROUPS</a>
+                        <div class="sub-munu-1">
+                            <ul>
+                                <li><a href="#">Group Activities</a></li>
+                                <li><a href="#">Schools</a></li>
+                                <li><a href="#">Group Spaces</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">ABOUT US</a>
+                        <div class="sub-munu-1">
+                            <ul>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Employment</a></li>
+                                <li><a href="#">FAQ's</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <div class="content">
+            <h1>Mt Seymour</h1>
+            <br><br>
+            <a href="#explore">Explore</a>
+        </div>
+
+        <div>
+            <a href="#help">
+                <button id="button1">Help?</button>
+            </a>
+        </div>
+    </div>
+    <!--  Course  -->
+    <section class="course" id="explore">
+        <h1>Courses We Offer</h1>
+        <h2>SINGLE DAY GROUP & PRIVATE LESSONS</h2>
+        <div class="row">
+            <div class="course-col">
+                <h3>TOT PRIVATE LESSONS</h3>
+                <p><span class="age">Ages 3-6</span><br>These one-hour lessons are just the right length to help
+                    your little one build
+                    their
+                    confidence on snow in a safe one-on-one environment. A great value for all ability levels.</p><br>
+                <img src="./img/6age.png">
+            </div>
+            <div class="course-col">
+                <h3>PRIVATE LESSONS</h3>
+                <p><span class="age">Ages 7+</span><br>Private lessons for January & February are available now!
+                    If you would like to book a semi-private 2hr or 3hr lesson for ages 7+, you will have the option to
+                    do this during the lesson purchase.</p><br>
+                <img src="./img/7+.jpg">
+            </div>
+            <div class="course-col">
+                <h3>GROUP LESSONS</h3>
+                <p><span class="age">Ages 7+</span><br>Group lessons for ability levels 1-3, and ages 7+, may become
+                    available for
+                    weekends from
+                    mid-February onwards. Please check back here in February for more information and to book.</p><br>
+                <img src="./img/7+G.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- 工商時間  -->
+    <section class="sell">
+        <div class="row">
+            <div class="sell-col"> <a href="tickets.html"><i class="bi bi-person-square"></i>TICKETS</a>
+            </div>
+            <div class="sell-col"> <a href="#"><i class="bi bi-pin-map"></i>PASS HOLDER RESERVATIONS</a>
+            </div>
+            <div class="sell-col"> <a href="#"><i class="bi bi-journal-bookmark"></i>PRIVATE LESSONS</a>
+            </div>
+        </div>
+        <h3>WEEKEND & HOLIDAY 4-HOUR TIME SLOTS</h3>
+        <br>
+        <p>Our weekend & holiday 4-hour time slots mean shorter lift lines, guaranteed parking, and no road delays. When
+            your 4-hour time slot expires, visit Guest Services, and if there is availability, reload at no cost for
+            another four hours.</p>
+        <br>
+        <p>On weekdays, choose your start time and stay as long as you want.</p>
+        <h3 class="learnMore"><a href="tickets.html">LEARN MORE<i class="bi bi-arrow-right"></i></a></h3>
+    </section>
+
+    <!--  mountain  -->
+    <section class="mountain">
+        <div class="mountain-desc">
+            <img src="./img/Feb24_2019.jpg">
+            <div class="h1-background">
+                <h1>THAT WEST<br>COAST FEEL</h1>
+            </div>
+        </div>
+    </section>
+    <!--  circle  -->
+    <section class="circle">
+        <div class="circle-col">
+            <div class="innercircle">
+                <div class="inntext">1000</div>
+                <div class="unit">cm</div>
+            </div>
+            <h5 class="text">AVERAGE SNOWFALL</h5>
+        </div>
+
+        <div class="circle-col">
+            <div class="innercircle">
+                <div class="inntext">200</div>
+            </div>
+            <h5 class="text">SKIABLE ACRES</h5>
+        </div>
+
+        <div class="circle-col">
+            <div class="innercircle">
+                <div class="inntext">40</div>
+            </div>
+            <h5 class="text">MARKED RUNS</h5>
+        </div>
+
+        <div class="circle-col">
+            <div class="innercircle">
+                <div class="inntext">4</div>
+            </div>
+            <h5 class="text">TERRAIN PARKS</h5>
+        </div>
+    </section>
+    <!--  map -->
+   <section class="maprow">
+        <div class="mapcol">
+            <div class="first"><img src="./img/Brockton Drone - Feb 21-2022.jpg">
+                <a href="#">
+                    <div class="firsttext">FAQ'S<br><i class="bi bi-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="sec"></div>
+        </div>
+        <div class="mapcol2">
+            <div class="first"><img src="./img/Yellow Shuttle Bus (1 of 1).jfif">
+                <a href="#">
+                    <div class="firsttext">GETTING HERE<br><i class="bi bi-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="sec"></div>
+        </div>
+    </section>
+    <!--  footer  -->
+    <footer>
+        <div class="footerrow">
+            <div class="footercol">
+                <h3>STAY UP-TO-DATE</h3>
+                <p class="getUP">Get Mt Seymour's weekly Seymour Rundown Newsletter with news, events, and great deals.
+                </p>
+                <br><br>
+                <h4 class="signUp"><a href="./signUp.html">SIGN ME UP<i class="bi bi-arrow-bar-right"></i></a></h4>
+                <br><br><br><br>
+                <div class="info">
+                    <p>Guest Services: 604-986-2261</p>
+                    <P class="email-id">Email: info@mtseymour.ca</P>
+                    <p>1700 Mount Seymour Road, North Vancouver, BC Canada, V7G 1L3</p>
+                </div>
+                <br><br>
+                <h6>Mt Seymour acknowledges that it operates on the unceded territory of the Coast Salish peoples,
+                    including the territories of the xʷməθkwəy̓əm (Musqueam), Skwxwú7mesh (Squamish), and
+                    Səl̓ílwəta/Selilwitulh (Tsleil-Waututh) Nations.</h6>
+            </div>
+
+            <div class="footercol">
+                <img src="./img/MtSeymour_K_WHT_Logo.webp" class="footerlogo">
+                <ul class="footerul">
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href="">TERMS & CONDITIONS</a></li>
+                    <li><a href="">MOUNTAIN SAFETY</a></li>
+                    <li><a href="">PRIVACY POLICY</a></li>
+                    <li><a href="">DRONE POLICY</a></li>
+                    <li><a href="">CLAIMS</a></li>
+                </ul>
+                <br><br><br>
+                <div class="social-icons">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-tiktok"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">© 2023 Mt Seymour's.<br>
+            The content of this website is for ISpan class presentation practice and is not for commercial use. If there
+            is any infringement, please inform us.</p>
+    </footer>
+    <!--  JavaScript for Toggle Menu  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() { navLinks.style.right = "0"; }
+        function hideMenu() { navLinks.style.right = "-200px"; }
+    </script>
+</body>
+
+</html>

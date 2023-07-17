@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="shortcut icon" href="./img/fac.ico" />
+    <link rel="stylesheet" href="./signUp.css">
+    <script src="https://kit.fontawesome.com/336f40c053.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="formbox">
+            <a href="./index.html"><img src="./img/MT-Seymour.png" class="logo"></a>
+            <h2 id="title">Sign up</h2>
+            <form action="#">
+                <div class="input-group">
+                    <div class="input-field name" id="nameField">
+                        <i class="icon fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name">
+                        <i class="error error-icon fa-sharp fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="error error-txt">Name can't be blank</div>
+
+                    <div class="input-field email">
+                        <i class="icon fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="someone@abc.com">
+                        <i class="error error-icon fa-sharp fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="error error-txt">Email can't be blank</div>
+
+                    <div class="input-field password">
+                        <i class="icon fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                        <i class="error error-icon fa-sharp fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="error error-txt">Password can't be blank</div>
+                </div>
+
+                <div class="btn-field">
+                    <button  type="submit" id="signupBtn">Sign up</button>  
+                    <button  type="submit" id="signinBtn" class="disable">Sign in</button>
+                </div>
+            </form>
+            <div class="sign-txt">
+                <p>Lost possword? <a href="#">Chick Here!</a></p>
+                <p class="signup-link">Not yet member? <a href="">Sign up now!</a></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        //Sign in up 隱藏顯示
+        // let signupBtn = document.getElementById("signupBtn");
+        // let signinBtn = document.getElementById("signinBtn");
+        // let nameField = document.getElementById("nameField");
+        // let title = document.getElementById("title");
+        // let errors = document.querySelector(".error-txt");
+
+        // signinBtn.onclick = function () {
+            // nameField.style.maxHeight = "0";
+            // nameField.style.border = "none";
+        //    errors.style.color = "transparent";
+
+            // title.innerHTML = "Sign In";
+            // signupBtn.classList.add("disable");
+            // signinBtn.classList.remove("disable");
+        // }
+
+        // signupBtn.onclick = function () {
+            // nameField.style.maxHeight = "60px";
+            // nameField.style.border = "1px solid #bfbfbf";
+            // errors.style.color = "rgb(243, 96, 120)";
+
+            // title.innerHTML = "Sign Up";
+            // signupBtn.classList.remove("disable");
+            // signinBtn.classList.add("disable");
+        // }
+
+    </script>
+   
+    <script src="./signUp.js"> //合併 </script>
+</body>
+
+</html>
